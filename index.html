@@ -400,8 +400,10 @@
                         </svg>
                     </div>
                 </div>
-                    <label for="user-coment" class="user-coments">Комментарий</label>
+                    <div class="text-field">    
+                        <label for="user-coment" class="user-coments">Комментарий</label>
                         <textarea name="coment" id="user-coment" class="coments-text" placeholder="Введите текст"></textarea>
+                    </div>
                 <div class="terms-field">                    
                     <input type="checkbox" name="agreement-terms" class="terms-input visually-hidden" id="input-terms">
                     <label for="input-terms" class="check-form">
@@ -409,9 +411,9 @@
                             <svg class="check-icon" width="16px" height="15px">
                                 <use href="./images/icons.svg#icon-galochka"></use>
                             </svg>
-                        </span>Соглашаюсь с рассылкой и принимаю Условия договора</label>
+                        </span>Соглашаюсь с рассылкой и принимаю<a href="" class="terms-link">Условия договора</a></label>               
+                        <button type="submit" class="form-button">Отправить</button>
                 </div>
-                <button type="submit"></button>
             </form>
             <button type="button" class="modal-button" data-modal-close>
                 <svg class="modal-button-x">
