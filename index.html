@@ -369,7 +369,7 @@
             </div>
         </div>
     </footer>
-    <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop " data-modal>
         <div class="modal">
             <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
             <form action="#">
@@ -402,9 +402,14 @@
                 </div>
                     <label for="user-coment" class="user-coments">Комментарий</label>
                         <textarea name="coment" id="user-coment" class="coments-text" placeholder="Введите текст"></textarea>
-                <div>                    
-                    <input type="checkbox" name="agreement-terms" class="terms-input" id="input-terms">
-                    <label for="input-terms">Соглашаюсь с рассылкой и принимаю Условия договора</label>
+                <div class="terms-field">                    
+                    <input type="checkbox" name="agreement-terms" class="terms-input visually-hidden" id="input-terms">
+                    <label for="input-terms" class="check-form">
+                        <span>
+                            <svg class="check-icon" width="16px" height="15px">
+                                <use href="./images/icons.svg#icon-galochka"></use>
+                            </svg>
+                        </span>Соглашаюсь с рассылкой и принимаю Условия договора</label>
                 </div>
                 <button type="submit"></button>
             </form>

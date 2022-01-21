@@ -787,6 +787,21 @@ body {
   color: rgba(117, 117, 117, 0.5);
 }
 
+.check-form {
+  display: flex;
+}
+
+.check-form span {
+  width: 16px;
+  height: 15px;
+  border: 2px solid var(--primary-text-color);
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 7px;
+}
+
 .modal-button {
   position: absolute;
   right: 8px;
