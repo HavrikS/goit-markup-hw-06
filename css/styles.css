@@ -737,13 +737,13 @@ body {
   transition-timing-function: var(--primary-transition-timing-function);
 }
 
-.form-input:focus,
-.form-input:hover {
+.form-field:focus .form-input,
+.form-field:hover .form-input {
   border-color: var(--accent-color);
 }
 
-.form-input:focus + .input-icon,
-.form-input:hover + .input-icon {
+.form-field:focus .input-icon,
+.form-field:hover .input-icon {
   fill: var(--accent-color);
 }
 

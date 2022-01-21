@@ -369,14 +369,14 @@
             </div>
         </div>
     </footer>
-    <div class="backdrop " data-modal>
+    <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
             <form action="#">
                 <div class="form-field">
                     <label for="user-name" class="input-text">Имя</label>
                     <div class="input-wrap">
-                        <input type="text" class="form-input" id="user-name">
+                        <input type="text" class="form-input" name="name" id="user-name">
                         <svg class="input-icon" width="18px" height="18px">
                             <use href="./images/icons.svg#icon-person"></use>
                         </svg>
@@ -385,7 +385,7 @@
                 <div class="form-field">
                     <label for="user-tel" class="input-text">Телефон</label>
                     <div class="input-wrap">
-                    <input type="text" class="form-input" id="user-tel">
+                    <input type="text" class="form-input" name="phone" id="user-tel">
                         <svg class="input-icon" width="18px" height="18px">
                             <use href="./images/icons.svg#icon-phone"></use>
                         </svg>
@@ -394,7 +394,7 @@
                 <div class="form-field">
                     <label for="user-mail" class="input-text">Почта</label>
                     <div class="input-wrap">
-                        <input type="text" class="form-input" id="user-mail">
+                        <input type="text" class="form-input" name="mail" id="user-mail">
                         <svg class="input-icon" width="18px" height="18px">
                             <use href="./images/icons.svg#icon-email"></use>
                         </svg>
@@ -405,7 +405,7 @@
                         <textarea name="coment" id="user-coment" class="coments-text" placeholder="Введите текст"></textarea>
                     </div>
                 <div class="terms-field">                    
-                    <input type="checkbox" name="agreement-terms" class="terms-input visually-hidden" id="input-terms">
+                    <input type="checkbox" name="agreement" class="terms-input visually-hidden" id="input-terms">
                     <label for="input-terms" class="check-form">
                         <span>
                             <svg class="check-icon" width="16px" height="15px">
