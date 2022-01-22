@@ -564,6 +564,9 @@ body {
 }
 
 .footer-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 200px;
   height: 50px;
   margin-left: 12px;
@@ -579,6 +582,11 @@ body {
   transition-property: background;
   transition-duration: var(--primary-transition-duration);
   transition-timing-function: var(--primary-transition-timing-function);
+}
+
+.send-form {
+  display: flex;
+  align-items: baseline;
 }
 
 .icon-send {
